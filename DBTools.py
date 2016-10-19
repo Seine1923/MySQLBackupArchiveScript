@@ -7,10 +7,10 @@ import tarfile
 
 
 print "###################################################"
-print "# This python script has features show below."
-print "# Please select feature:"
+print "# This python script has features below show."
+print "# Please select your feature:"
 print "# 0. Exit python script, press 0"
-print "# 1. Backup database, press 1"
+print "# 1. Backup current database, press 1"
 print "# 2. Archive your database before today, press 2"
 print "###################################################"
 
@@ -63,7 +63,6 @@ elif select == "2":
                 if not os.path.exists(tarPath):
                     commend = "tar cvf " + tarPath + " " + fullpath;
                     result = os.system(commend)
-                    print("commend: " + commend)
                     if result != 0:
                         print result
                     else:
@@ -72,7 +71,6 @@ elif select == "2":
                 else:
                     commend = "tar rvf " + tarPath + " " +fullpath;
                     result = os.system(commend)
-                    print("commend: " + commend)
                     if result != 0:
                         print result
                     else:
