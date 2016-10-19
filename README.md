@@ -13,7 +13,8 @@ DIRECTORY STRUCTURE
 ```
 dbbackup
 	20161018							
-		ttmgrportal20161018-181406.sql		backup file    ttmgrportal20161018-182156.sql		backup file
+		ttmgrportal20161018-181406.sql		backup file  
+		ttmgrportal20161018-182156.sql		backup file
 	20161019
 		ttmgrportal20161019-134431.sql		backup file
 	ttmgrportal.tar.gz						Archive file
